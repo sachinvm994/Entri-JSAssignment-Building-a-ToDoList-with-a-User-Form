@@ -1,0 +1,14 @@
+.task-item {
+    transition: all 0.4s ease;
+}
+
+.task-completed {
+    background-color: #d1e7dd !important;
+    color: #0f5132;
+    opacity: 0.85;
+    transform: scale(0.98);
+}
+.fade-out {
+    opacity: 0;
+    transform: scale(0.95);
+}
